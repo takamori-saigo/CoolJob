@@ -1,6 +1,9 @@
 ﻿namespace CoolJob.Models;
 
-public class JobType
+public enum JobType
 {
-    
+    FullTime,
+    PartTime,
+    Internship
 }
+

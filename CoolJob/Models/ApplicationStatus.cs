@@ -1,6 +1,6 @@
 ﻿namespace CoolJob.Models;
 
-public enum ApplicationStatusEnum
+public enum ApplicationStatus
 {
     Pending,
     Approved,
