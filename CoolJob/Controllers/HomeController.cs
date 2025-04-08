@@ -1,11 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace CoolJob.Controllers;
-
-public class HomeController: Controller
+namespace CoolJob.Controllers
 {
-    public IActionResult Index()
+    public class HomeController : Controller
     {
-        return View();
+        public ActionResult Index()
+        {
+            return View();
+        }
     }
 }

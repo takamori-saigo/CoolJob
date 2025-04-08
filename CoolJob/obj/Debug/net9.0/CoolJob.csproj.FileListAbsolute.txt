@@ -28,6 +28,6 @@ C:\Users\gats\RiderProjects\CoolJob\CoolJob\obj\Debug\net9.0\CoolJob.genruntimec
 C:\Users\gats\RiderProjects\CoolJob\CoolJob\obj\Debug\net9.0\ref\CoolJob.dll
 C:\Users\gats\RiderProjects\CoolJob\CoolJob\bin\Debug\net9.0\CoolJob.staticwebassets.runtime.json
 C:\Users\gats\RiderProjects\CoolJob\CoolJob\obj\Debug\net9.0\CoolJob.sourcelink.json
-C:\Users\gats\RiderProjects\CoolJob\CoolJob\obj\Debug\net9.0\compressed\w1ig3ct1o3-5ipweew5fc.gz
 C:\Users\gats\RiderProjects\CoolJob\CoolJob\obj\Debug\net9.0\CoolJob.RazorAssemblyInfo.cache
 C:\Users\gats\RiderProjects\CoolJob\CoolJob\obj\Debug\net9.0\CoolJob.RazorAssemblyInfo.cs
+C:\Users\gats\RiderProjects\CoolJob\CoolJob\obj\Debug\net9.0\compressed\w1ig3ct1o3-zd95z6fhyq.gz
