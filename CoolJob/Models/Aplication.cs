@@ -17,7 +17,6 @@ public class Application
     public string ResumePath { get; set; }
     public string CoverLetter { get; set; }
     
-    // Навигационные свойства
     public virtual User User { get; set; }
     public virtual Job Job { get; set; }
 }
