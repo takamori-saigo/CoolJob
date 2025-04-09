@@ -5,12 +5,24 @@
       "PackagePath": "staticwebassets\\css\\auth.css"
     },
     {
+      "Id": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\css\\jobs.css",
+      "PackagePath": "staticwebassets\\css\\jobs.css"
+    },
+    {
+      "Id": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
+    },
+    {
       "Id": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\ico\\icons8-c-в-круге-80.png",
+      "PackagePath": "staticwebassets\\ico\\icons8-c-в-круге-80.png"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.CoolJob.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

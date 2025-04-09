@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "bCh6o8aS4IjIP2kABALu2iJ7lbrD15c2XLeuz0fhhNs=",
+  "Hash": "wjLd/n63KNDlwGEi4UgiCYMmaIDdCLzfBDxEG2IFQms=",
   "Source": "CoolJob",
   "BasePath": "_content/CoolJob",
   "Mode": "Default",
@@ -38,6 +38,27 @@
       "OriginalItemSpec": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\css\\auth.css"
     },
     {
+      "Identity": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\obj\\Debug\\net9.0\\compressed\\56vtht379r-pcxylsch6a.gz",
+      "SourceId": "CoolJob",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/CoolJob",
+      "RelativePath": "css/jobs#[.{fingerprint=pcxylsch6a}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\css\\jobs.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "7293xxjfdk",
+      "Integrity": "YdrPuBnsfkeQUljb9VVMYvypvRKccb/K+eSRsm5Va8Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\css\\jobs.css"
+    },
+    {
       "Identity": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\obj\\Debug\\net9.0\\compressed\\buf4aenrdk-r7jcp7v831.gz",
       "SourceId": "CoolJob",
       "SourceType": "Discovered",
@@ -57,6 +78,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\obj\\Debug\\net9.0\\compressed\\pfs3zstbqe-d6pewwd7ff.gz",
+      "SourceId": "CoolJob",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/CoolJob",
+      "RelativePath": "css/profile#[.{fingerprint=d6pewwd7ff}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\css\\profile.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "flqikr2hlq",
+      "Integrity": "3WiF5JX8xzvAnpUYBH+/NrXxBTckyFMvKEg2xsprUw0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\css\\profile.css"
     },
     {
       "Identity": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\obj\\Debug\\net9.0\\compressed\\w1ig3ct1o3-zd95z6fhyq.gz",
@@ -101,6 +143,48 @@
       "OriginalItemSpec": "wwwroot\\css\\auth.css"
     },
     {
+      "Identity": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\css\\jobs.css",
+      "SourceId": "CoolJob",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\",
+      "BasePath": "_content/CoolJob",
+      "RelativePath": "css/jobs#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pcxylsch6a",
+      "Integrity": "WQKSkJi0H9lsoj7v6LSpkvsf72m+aeAqphb4ZbIPzLA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\jobs.css"
+    },
+    {
+      "Identity": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\css\\profile.css",
+      "SourceId": "CoolJob",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\",
+      "BasePath": "_content/CoolJob",
+      "RelativePath": "css/profile#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d6pewwd7ff",
+      "Integrity": "9aZ1nSzPJ6ELsg3oeBGv+qsJKWG5rWi37g9QRwWmqyM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\profile.css"
+    },
+    {
       "Identity": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\css\\site.css",
       "SourceId": "CoolJob",
       "SourceType": "Discovered",
@@ -141,6 +225,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\ico\\icons8-c-в-круге-80.png",
+      "SourceId": "CoolJob",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\",
+      "BasePath": "_content/CoolJob",
+      "RelativePath": "ico/icons8-c-в-круге-80#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a3nl8xcrmq",
+      "Integrity": "JhQvRVWWmxgrrO/IXT4uEoyGOn8T7M3ch1R8oNwyXy4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ico\\icons8-c-в-круге-80.png"
     }
   ],
   "Endpoints": [
@@ -439,6 +544,602 @@
         {
           "Name": "integrity",
           "Value": "sha256-jh723iHZt84tDkAOsXbcqBX0b2/Jfl67pvQaEzm6TCc="
+        }
+      ]
+    },
+    {
+      "Route": "css/jobs.css",
+      "AssetFile": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\obj\\Debug\\net9.0\\compressed\\56vtht379r-pcxylsch6a.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001083423619"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "922"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YdrPuBnsfkeQUljb9VVMYvypvRKccb/K+eSRsm5Va8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 16:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WQKSkJi0H9lsoj7v6LSpkvsf72m+aeAqphb4ZbIPzLA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WQKSkJi0H9lsoj7v6LSpkvsf72m+aeAqphb4ZbIPzLA="
+        }
+      ]
+    },
+    {
+      "Route": "css/jobs.css",
+      "AssetFile": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\css\\jobs.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WQKSkJi0H9lsoj7v6LSpkvsf72m+aeAqphb4ZbIPzLA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 16:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WQKSkJi0H9lsoj7v6LSpkvsf72m+aeAqphb4ZbIPzLA="
+        }
+      ]
+    },
+    {
+      "Route": "css/jobs.css.gz",
+      "AssetFile": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\obj\\Debug\\net9.0\\compressed\\56vtht379r-pcxylsch6a.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "922"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YdrPuBnsfkeQUljb9VVMYvypvRKccb/K+eSRsm5Va8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 16:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YdrPuBnsfkeQUljb9VVMYvypvRKccb/K+eSRsm5Va8Q="
+        }
+      ]
+    },
+    {
+      "Route": "css/jobs.pcxylsch6a.css",
+      "AssetFile": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\obj\\Debug\\net9.0\\compressed\\56vtht379r-pcxylsch6a.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001083423619"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "922"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YdrPuBnsfkeQUljb9VVMYvypvRKccb/K+eSRsm5Va8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 16:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WQKSkJi0H9lsoj7v6LSpkvsf72m+aeAqphb4ZbIPzLA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pcxylsch6a"
+        },
+        {
+          "Name": "label",
+          "Value": "css/jobs.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WQKSkJi0H9lsoj7v6LSpkvsf72m+aeAqphb4ZbIPzLA="
+        }
+      ]
+    },
+    {
+      "Route": "css/jobs.pcxylsch6a.css",
+      "AssetFile": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\css\\jobs.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3009"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WQKSkJi0H9lsoj7v6LSpkvsf72m+aeAqphb4ZbIPzLA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 16:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pcxylsch6a"
+        },
+        {
+          "Name": "label",
+          "Value": "css/jobs.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WQKSkJi0H9lsoj7v6LSpkvsf72m+aeAqphb4ZbIPzLA="
+        }
+      ]
+    },
+    {
+      "Route": "css/jobs.pcxylsch6a.css.gz",
+      "AssetFile": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\obj\\Debug\\net9.0\\compressed\\56vtht379r-pcxylsch6a.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "922"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YdrPuBnsfkeQUljb9VVMYvypvRKccb/K+eSRsm5Va8Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 16:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pcxylsch6a"
+        },
+        {
+          "Name": "label",
+          "Value": "css/jobs.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YdrPuBnsfkeQUljb9VVMYvypvRKccb/K+eSRsm5Va8Q="
+        }
+      ]
+    },
+    {
+      "Route": "css/profile.css",
+      "AssetFile": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\obj\\Debug\\net9.0\\compressed\\pfs3zstbqe-d6pewwd7ff.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000951474786"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1050"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WiF5JX8xzvAnpUYBH+/NrXxBTckyFMvKEg2xsprUw0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 15:46:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9aZ1nSzPJ6ELsg3oeBGv+qsJKWG5rWi37g9QRwWmqyM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9aZ1nSzPJ6ELsg3oeBGv+qsJKWG5rWi37g9QRwWmqyM="
+        }
+      ]
+    },
+    {
+      "Route": "css/profile.css",
+      "AssetFile": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\css\\profile.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9aZ1nSzPJ6ELsg3oeBGv+qsJKWG5rWi37g9QRwWmqyM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 15:46:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9aZ1nSzPJ6ELsg3oeBGv+qsJKWG5rWi37g9QRwWmqyM="
+        }
+      ]
+    },
+    {
+      "Route": "css/profile.css.gz",
+      "AssetFile": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\obj\\Debug\\net9.0\\compressed\\pfs3zstbqe-d6pewwd7ff.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1050"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WiF5JX8xzvAnpUYBH+/NrXxBTckyFMvKEg2xsprUw0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 15:46:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WiF5JX8xzvAnpUYBH+/NrXxBTckyFMvKEg2xsprUw0="
+        }
+      ]
+    },
+    {
+      "Route": "css/profile.d6pewwd7ff.css",
+      "AssetFile": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\obj\\Debug\\net9.0\\compressed\\pfs3zstbqe-d6pewwd7ff.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000951474786"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1050"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WiF5JX8xzvAnpUYBH+/NrXxBTckyFMvKEg2xsprUw0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 15:46:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"9aZ1nSzPJ6ELsg3oeBGv+qsJKWG5rWi37g9QRwWmqyM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d6pewwd7ff"
+        },
+        {
+          "Name": "label",
+          "Value": "css/profile.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9aZ1nSzPJ6ELsg3oeBGv+qsJKWG5rWi37g9QRwWmqyM="
+        }
+      ]
+    },
+    {
+      "Route": "css/profile.d6pewwd7ff.css",
+      "AssetFile": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\css\\profile.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3333"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9aZ1nSzPJ6ELsg3oeBGv+qsJKWG5rWi37g9QRwWmqyM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 15:46:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d6pewwd7ff"
+        },
+        {
+          "Name": "label",
+          "Value": "css/profile.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9aZ1nSzPJ6ELsg3oeBGv+qsJKWG5rWi37g9QRwWmqyM="
+        }
+      ]
+    },
+    {
+      "Route": "css/profile.d6pewwd7ff.css.gz",
+      "AssetFile": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\obj\\Debug\\net9.0\\compressed\\pfs3zstbqe-d6pewwd7ff.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1050"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3WiF5JX8xzvAnpUYBH+/NrXxBTckyFMvKEg2xsprUw0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 15:46:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d6pewwd7ff"
+        },
+        {
+          "Name": "label",
+          "Value": "css/profile.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3WiF5JX8xzvAnpUYBH+/NrXxBTckyFMvKEg2xsprUw0="
         }
       ]
     },
@@ -1035,6 +1736,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-7bc4NPTNYw8ufCR385RFlcxc0g5HuLS3xqK+Mz+G1Mw="
+        }
+      ]
+    },
+    {
+      "Route": "ico/icons8-c-в-круге-80.a3nl8xcrmq.png",
+      "AssetFile": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\ico\\icons8-c-в-круге-80.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2037"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JhQvRVWWmxgrrO/IXT4uEoyGOn8T7M3ch1R8oNwyXy4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 16:25:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a3nl8xcrmq"
+        },
+        {
+          "Name": "label",
+          "Value": "ico/icons8-c-в-круге-80.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JhQvRVWWmxgrrO/IXT4uEoyGOn8T7M3ch1R8oNwyXy4="
+        }
+      ]
+    },
+    {
+      "Route": "ico/icons8-c-в-круге-80.png",
+      "AssetFile": "C:\\Users\\gats\\RiderProjects\\CoolJob\\CoolJob\\wwwroot\\ico\\icons8-c-в-круге-80.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2037"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JhQvRVWWmxgrrO/IXT4uEoyGOn8T7M3ch1R8oNwyXy4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 16:25:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JhQvRVWWmxgrrO/IXT4uEoyGOn8T7M3ch1R8oNwyXy4="
         }
       ]
     }

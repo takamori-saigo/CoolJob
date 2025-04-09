@@ -1,0 +1,169 @@
+﻿.jobs-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.search-form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.search-form input,
+.search-form select {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.search-form button {
+    background: #FF8C00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.jobs-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.job-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.job-card:hover {
+    transform: translateY(-5px);
+}
+
+.job-header {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.job-header h3 {
+    margin: 0;
+    color: #333;
+}
+
+.job-type {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.job-type.fulltime { background: #4CAF50; color: white; }
+.job-type.parttime { background: #2196F3; color: white; }
+.job-type.internship { background: #FFC107; color: #333; }
+.job-type.remote { background: #9C27B0; color: white; }
+
+.job-body {
+    padding: 20px;
+}
+
+.job-body .employer {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.job-body .salary {
+    font-weight: bold;
+    color: #FF8C00;
+    margin-bottom: 15px;
+}
+
+.job-body .description {
+    color: #555;
+    line-height: 1.5;
+}
+
+.job-footer {
+    padding: 15px 20px;
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-details, .btn-apply {
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.btn-details {
+    background: #f1f1f1;
+    color: #333;
+}
+
+.btn-apply {
+    background: #FF8C00;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Страница деталей */
+.job-details {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    padding: 30px;
+}
+
+.job-meta {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 15px 0;
+    align-items: center;
+}
+
+.job-meta > span {
+    padding: 5px 10px;
+    background: #f5f5f5;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.job-meta .salary {
+    background: #FFF3E0;
+    color: #FF8C00;
+    font-weight: bold;
+}
+
+.job-description {
+    margin: 30px 0;
+    line-height: 1.6;
+}
+
+.job-actions {
+    display: flex;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.btn-back {
+    padding: 10px 20px;
+    background: #f1f1f1;
+    color: #333;
+    border-radius: 5px;
+    text-decoration: none;
+}

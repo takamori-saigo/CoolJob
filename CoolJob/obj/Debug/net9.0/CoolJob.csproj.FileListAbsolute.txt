@@ -167,3 +167,5 @@ C:\Users\gats\RiderProjects\CoolJob\CoolJob\obj\Debug\net9.0\CoolJob.csproj.Asse
 C:\Users\gats\RiderProjects\CoolJob\CoolJob\obj\Debug\net9.0\CoolJob.csproj.Up2Date
 C:\Users\gats\RiderProjects\CoolJob\CoolJob\obj\Debug\net9.0\compressed\buf4aenrdk-r7jcp7v831.gz
 C:\Users\gats\RiderProjects\CoolJob\CoolJob\obj\Debug\net9.0\compressed\550sq2y42h-0uqdnrxrab.gz
+C:\Users\gats\RiderProjects\CoolJob\CoolJob\obj\Debug\net9.0\compressed\pfs3zstbqe-d6pewwd7ff.gz
+C:\Users\gats\RiderProjects\CoolJob\CoolJob\obj\Debug\net9.0\compressed\56vtht379r-pcxylsch6a.gz

@@ -79,7 +79,7 @@ namespace CoolJob.Controllers
         }
         
         
-        private async Task SignInUserAsync(User user, bool rememberMe)
+        public async Task SignInUserAsync(User user, bool rememberMe)
         {
             var claims = new List<Claim>
             {

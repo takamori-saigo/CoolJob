@@ -1,0 +1,48 @@
+﻿@using CoolJob.Models
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<Job>
+
+@{
+    ViewData["Title"] = "Вакансии";
+    ViewBag.Css = new[] { "css/style.css", "css/jobs.css"};
+}
+
+<div class="jobs-header">
+    <h1>Доступные вакансии</h1>
+    <form asp-action="Index" method="get" class="search-form">
+        <input type="text" name="search" placeholder="Поиск..." value="@ViewBag.Search" />
+        <select name="type" asp-items="@Html.GetEnumSelectList<JobType>()">
+            <option value="">Все типы</option>
+        </select>
+        <button type="submit">Найти</button>
+    </form>
+</div>
+
+<div class="jobs-container">
+    @foreach (var item in Model)
+    {
+        <div class="job-card">
+            <div class="job-header">
+                <h3>@item.Title</h3>
+                <span class="job-type @item.Type.ToString().ToLower()">@item.Type</span>
+            </div>
+            
+            <div class="job-body">
+                <p class="employer">@item.Employer?.Name</p>
+                <p class="salary">@(item.Salary != null ? $"{item.Salary:N0} ₽" : "З/П не указана")</p>
+                <p class="description">@item.Description</p>
+            </div>
+            
+            <div class="job-footer">
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn-details">Подробнее</a>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <form asp-action="Apply" method="post">
+                        <input type="hidden" name="id" value="@item.Id" />
+                        <button type="submit" class="btn-apply">Откликнуться</button>
+                    </form>
+                }
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,42 @@
+﻿@model Job
+
+@{
+    ViewData["Title"] = Model.Title;
+    ViewBag.Css = new[] { "css/style.css", "css/jobs.css"};
+}
+
+<div class="job-details">
+    <div class="job-header">
+        <h1>@Model.Title</h1>
+        <div class="job-meta">
+            <span class="employer">@Model.Employer?.Name</span>
+            <span class="type @Model.Type.ToString().ToLower()">@Model.Type</span>
+            <span class="salary">@(Model.Salary != null ? $"{Model.Salary:N0} ₽" : "З/П не указана")</span>
+            <span class="date">Опубликовано: @Model.PostDate.ToString("d")</span>
+        </div>
+    </div>
+
+    <div class="job-description">
+        <h3>Описание вакансии</h3>
+        <p>@Model.Description</p>
+    </div>
+
+    <div class="job-actions">
+        @if (User.Identity.IsAuthenticated)
+        {
+            <form asp-action="Apply" method="post">
+                <input type="hidden" name="id" value="@Model.Id" />
+                <button type="submit" class="btn-apply">
+                    <i class="fas fa-paper-plane"></i> Откликнуться
+                </button>
+            </form>
+        }
+        else
+        {
+            <a asp-controller="Auth" asp-action="Login" asp-route-returnUrl="@Context.Request.Path" class="btn-apply">
+                <i class="fas fa-sign-in-alt"></i> Войдите, чтобы откликнуться
+            </a>
+        }
+        <a asp-action="Index" class="btn-back">Назад к списку</a>
+    </div>
+</div>

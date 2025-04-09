@@ -12,7 +12,7 @@ public class Application
     public int JobId { get; set; }
     
     public DateTime ApplyDate { get; set; }
-    public ApplicationStatus Status { get; set; } // Enum: Pending, Approved, Rejected
+    public ApplicationStatus Status { get; set; } 
     
     public string ResumePath { get; set; }
     public string CoverLetter { get; set; }

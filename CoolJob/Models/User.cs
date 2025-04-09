@@ -1,5 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
+namespace CoolJob.Models;
+
 public class User
 {
     public int Id { get; set; }
