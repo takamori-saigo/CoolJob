@@ -24,6 +24,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pcxylsch6a"},{"Name":"integrity","Value":"sha256-WQKSkJi0H9lsoj7v6LSpkvsf72m\u002BaeAqphb4ZbIPzLA="},{"Name":"label","Value":"_content/CoolJob/css/jobs.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3009"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022WQKSkJi0H9lsoj7v6LSpkvsf72m\u002BaeAqphb4ZbIPzLA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 16:39:50 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CoolJob/css/MyApplictaions.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\MyApplictaions.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-kFpaA\u002BtfcyGGPkQnKcEDkWol91lwnKoW\u002BL84LPc\u002BvBI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2853"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022kFpaA\u002BtfcyGGPkQnKcEDkWol91lwnKoW\u002BL84LPc\u002BvBI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 18:22:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/CoolJob/css/MyApplictaions.gkpwk20qy9.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\MyApplictaions.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gkpwk20qy9"},{"Name":"integrity","Value":"sha256-kFpaA\u002BtfcyGGPkQnKcEDkWol91lwnKoW\u002BL84LPc\u002BvBI="},{"Name":"label","Value":"_content/CoolJob/css/MyApplictaions.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2853"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022kFpaA\u002BtfcyGGPkQnKcEDkWol91lwnKoW\u002BL84LPc\u002BvBI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 18:22:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/CoolJob/css/profile.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\profile.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

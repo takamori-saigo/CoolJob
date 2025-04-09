@@ -169,3 +169,4 @@ C:\Users\gats\RiderProjects\CoolJob\CoolJob\obj\Debug\net9.0\compressed\buf4aenr
 C:\Users\gats\RiderProjects\CoolJob\CoolJob\obj\Debug\net9.0\compressed\550sq2y42h-0uqdnrxrab.gz
 C:\Users\gats\RiderProjects\CoolJob\CoolJob\obj\Debug\net9.0\compressed\pfs3zstbqe-d6pewwd7ff.gz
 C:\Users\gats\RiderProjects\CoolJob\CoolJob\obj\Debug\net9.0\compressed\56vtht379r-pcxylsch6a.gz
+C:\Users\gats\RiderProjects\CoolJob\CoolJob\obj\Debug\net9.0\compressed\j0lqq36i04-gkpwk20qy9.gz
