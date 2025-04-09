@@ -4,7 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewBag.Title - CoolJob</title>
-    <link href="css/style.css" rel="stylesheet" />
+    @if (ViewBag.Css != null)
+    {
+        foreach (var cssFile in ViewBag.Css as string[])
+        {
+            <link rel="stylesheet" href="~/@cssFile" />
+        }
+    }
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
@@ -17,8 +23,24 @@
                 <p class="slogan">Твой старт карьеры в университете</p>
             </div>
             <div class="auth-buttons">
-                <a href="/Account/Login" class="login-btn"><i class="fas fa-sign-in-alt"></i> Войти</a>
-                <a href="/Account/Register" class="register-btn"><i class="fas fa-user-plus"></i> Регистрация</a>
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <span class="welcome-text">Привет, @User.Identity.Name!</span>
+                    <form asp-controller="Auth" asp-action="Logout" method="post" class="logout-form">
+                        <button type="submit" class="logout-btn">
+                            <i class="fas fa-sign-out-alt"></i> Выйти
+                        </button>
+                    </form>
+                }
+                else
+                {
+                    <a asp-controller="Auth" asp-action="Login" class="login-btn">
+                        <i class="fas fa-sign-in-alt"></i> Войти
+                    </a>
+                    <a asp-controller="Account" asp-action="Register" class="register-btn">
+                        <i class="fas fa-user-plus"></i> Регистрация
+                    </a>
+                }
             </div>
         </div>
 

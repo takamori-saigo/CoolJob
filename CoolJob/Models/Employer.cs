@@ -14,6 +14,5 @@ public class Employer
     public string ContactEmail { get; set; }
     public string Description { get; set; }
     
-    // Навигационные свойства
     public virtual ICollection<Job> Jobs { get; set; }
 }

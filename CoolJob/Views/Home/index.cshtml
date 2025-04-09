@@ -1,5 +1,6 @@
 @{
     ViewBag.Title = "Главная - CoolJob";
+    ViewBag.Css = new[] { "css/style.css"};
 }
 
 <section class="hero-section">
@@ -11,32 +12,20 @@
             <a href="/Partners" class="cta-button secondary">Партнёрские вакансии</a>
         </div>
     </div>
-    <div class="hero-image">
-        <img src="~/Content/images/hero-image.png" alt="Студенты работают" />
-    </div>
 </section>
 
 <section class="features-section">
     <div class="feature-card">
-        <div class="feature-icon">
-            <img src="~/Content/images/search-icon.png" alt="Поиск" />
-        </div>
         <h3>Быстрый поиск</h3>
         <p>Фильтруй вакансии по факультету, навыкам и типу занятости</p>
     </div>
     
     <div class="feature-card">
-        <div class="feature-icon">
-            <img src="~/Content/images/apply-icon.png" alt="Заявки" />
-        </div>
         <h3>Подача заявок</h3>
         <p>Отправляй резюме и сопроводительные письма в пару кликов</p>
     </div>
     
     <div class="feature-card">
-        <div class="feature-icon">
-            <img src="~/Content/images/notify-icon.png" alt="Уведомления" />
-        </div>
         <h3>Умные уведомления</h3>
         <p>Получай оповещения о новых подходящих вакансиях</p>
     </div>
