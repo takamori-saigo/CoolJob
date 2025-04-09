@@ -14,8 +14,8 @@ public class Application
     public DateTime ApplyDate { get; set; }
     public ApplicationStatus Status { get; set; } 
     
-    public string ResumePath { get; set; }
-    public string CoverLetter { get; set; }
+    public string? ResumePath { get; set; }
+    public string? CoverLetter { get; set; }
     
     public virtual User User { get; set; }
     public virtual Job Job { get; set; }

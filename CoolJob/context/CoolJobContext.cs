@@ -38,6 +38,10 @@ namespace CoolJob.Models
             modelBuilder.Entity<User>()
                 .HasMany(u => u.Skills)
                 .WithMany(s => s.Users);
+            
+            modelBuilder.Entity<Application>()
+                .Property(a => a.CoverLetter)
+                .IsRequired(false); 
         }
     }
 }

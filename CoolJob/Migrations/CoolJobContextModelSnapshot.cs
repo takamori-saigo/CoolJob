@@ -34,7 +34,6 @@ namespace CoolJob.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("CoverLetter")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("JobId")

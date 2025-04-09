@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoolJob")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+72fb8f8423f165cc71f7f77ca6504837f90c2628")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67597f353dc8b7f929e3d8f9ffec42e209128b16")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoolJob")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoolJob")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
