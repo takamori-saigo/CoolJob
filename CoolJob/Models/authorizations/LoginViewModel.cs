@@ -1,6 +1,6 @@
 ﻿namespace CoolJob.Models;
 
-public class RegisterViewModel
+public class LoginViewModel
 {
     
 }
