@@ -1,0 +1,40 @@
+﻿@model CoolJob.ViewModels.LoginViewModel
+
+@{
+    ViewData["Title"] = "Вход в систему";
+    ViewBag.Css = new[] { "css/style.css", "css/auth.css" };
+}
+
+<div class="auth-container">
+    <div class="auth-card">
+        <h2 class="auth-title">Вход в CoolJob</h2>
+        
+        <form asp-action="Login" method="post" class="auth-form">
+            <input type="hidden" asp-for="ReturnUrl" />
+            
+            <div asp-validation-summary="ModelOnly" class="validation-summary"></div>
+            
+            <div class="form-group">
+                <label asp-for="Email" class="form-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="validation-message"></span>
+            </div>
+            
+            <div class="form-group">
+                <label asp-for="Password" class="form-label"></label>
+                <input asp-for="Password" type="password" class="form-control" />
+                <span asp-validation-for="Password" class="validation-message"></span>
+            </div>
+            <button type="submit" class="auth-button">
+                <i class="fas fa-sign-in-alt"></i> Войти
+            </button>
+            
+            <div class="auth-links">
+                <a asp-controller="Account" asp-action="Register">Регистрация</a>
+                <span class="divider">|</span>
+                <a href="#">Забыли пароль?</a>
+            </div>
+        </form>
+    </div>
+</div>
+

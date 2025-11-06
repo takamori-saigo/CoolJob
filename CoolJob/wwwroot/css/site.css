@@ -1,0 +1,178 @@
+﻿.registration-container {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 40px;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(139, 107, 74, 0.15);
+    border: 1px solid #e8f0e8;
+    position: relative;
+    overflow: hidden;
+}
+
+.registration-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background: linear-gradient(90deg, #4a7c59, #8a9b68, #d4b16a);
+}
+
+.registration-container h2 {
+    text-align: center;
+    color: #4a7c59;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 28px;
+    text-shadow: 0 2px 4px rgba(74, 124, 89, 0.1);
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #5a6d5a;
+    font-size: 15px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 14px 16px;
+    border: 2px solid #d8e4d3;
+    border-radius: 10px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    background-color: #fcfefc;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    border-color: #8a9b68;
+    box-shadow: 0 0 0 3px rgba(138, 155, 104, 0.15);
+    outline: none;
+    background-color: #ffffff;
+}
+
+.btn-primary {
+    background-color: #6b8e61;
+    border: none;
+    padding: 16px 20px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.btn-primary:hover {
+    background-color: #5a7c52;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(107, 142, 97, 0.4);
+}
+
+.btn-primary:active {
+    transform: translateY(0);
+}
+
+.text-danger {
+    color: #a38f7c;
+    font-size: 14px;
+    margin-top: 6px;
+    display: block;
+    font-weight: 500;
+}
+
+/* Дополнительные эко-элементы */
+.registration-footer {
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 20px;
+    border-top: 1px solid #e8f0e8;
+    color: #6b7c6b;
+}
+
+.registration-footer a {
+    color: #8a9b68;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.registration-footer a:hover {
+    color: #4a7c59;
+    text-decoration: underline;
+}
+
+/* Стили для селектов */
+.form-control select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%234a7c59' d='M6 8L2 4h8z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 12px;
+    appearance: none;
+}
+
+/* Анимация появления */
+.registration-container {
+    animation: slideUp 0.6s ease-out;
+}
+
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Адаптивность */
+@media (max-width: 576px) {
+    .registration-container {
+        margin: 20px;
+        padding: 30px 25px;
+    }
+
+    .registration-container h2 {
+        font-size: 24px;
+    }
+}
+
+/* Улучшение для чекбоксов и радио кнопок */
+input[type="checkbox"],
+input[type="radio"] {
+    accent-color: #6b8e61;
+}
+
+/* Стиль для успешной валидации */
+.form-control.valid {
+    border-color: #4a7c59;
+    background-color: #f8fbf8;
+}
+
+/* Эко-иконки для полей */
+.form-group {
+    position: relative;
+}
+
+.form-group::before {
+    content: '🌿';
+    position: absolute;
+    top: 35px;
+    right: 15px;
+    opacity: 0.3;
+    font-size: 14px;
+}

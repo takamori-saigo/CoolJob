@@ -1,0 +1,58 @@
+﻿@model Application
+
+@{
+    ViewData["Title"] = "Детали отклика";
+    ViewBag.Css = new[] { "css/style.css", "css/MyApplictaions.css" };
+}
+
+<div class="application-details">
+    <h1><i class="fas fa-file-alt"></i> Детали отклика</h1>
+    
+    <div class="detail-card">
+        <div class="detail-row">
+            <span class="detail-label">Вакансия:</span>
+            <span class="detail-value">@Model.Job.Title</span>
+        </div>
+        
+        <div class="detail-row">
+            <span class="detail-label">Работодатель:</span>
+            <span class="detail-value">@Model.Job.Employer.Name</span>
+        </div>
+        
+        <div class="detail-row">
+            <span class="detail-label">Статус:</span>
+            <span class="detail-value status-@Model.Status.ToString().ToLower()">
+                @Model.Status.()
+            </span>
+        </div>
+        
+        <div class="detail-row">
+            <span class="detail-label">Дата отклика:</span>
+            <span class="detail-value">@Model.ApplyDate.ToString("dd.MM.yyyy HH:mm")</span>
+        </div>
+        
+        @if (!string.IsNullOrEmpty(Model.CoverLetter))
+        {
+            <div class="detail-row full-width">
+                <span class="detail-label">Сопроводительное письмо:</span>
+                <div class="cover-letter">@Model.CoverLetter</div>
+            </div>
+        }
+        
+        @if (!string.IsNullOrEmpty(Model.ResumePath))
+        {
+            <div class="detail-row">
+                <span class="detail-label">Резюме:</span>
+                <a href="@Model.ResumePath" target="_blank" class="resume-link">
+                    <i class="fas fa-file-pdf"></i> Просмотреть резюме
+                </a>
+            </div>
+        }
+    </div>
+    
+    <div class="actions">
+        <a asp-action="My" class="btn-back">
+            <i class="fas fa-arrow-left"></i> Назад к списку
+        </a>
+    </div>
+</div>

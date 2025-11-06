@@ -1,0 +1,63 @@
+@{
+    ViewBag.Title = "Главная - CoolJob";
+    ViewBag.Css = new[] { "css/style.css"};
+}
+
+<section class="hero-section">
+    <div class="hero-content">
+        <h2>Найди идеальную работу в кампусе и за его пределами!</h2>
+        <p>Стажировки, подработка и исследовательские проекты от университета и партнёров</p>
+        <div class="cta-buttons">
+            <a href="/Jobs" class="cta-button">Начать поиск</a>
+            <a href="/Partners" class="cta-button secondary">Партнёрские вакансии</a>
+        </div>
+    </div>
+</section>
+
+<section class="features-section">
+    <div class="feature-card">
+        <h3>Быстрый поиск</h3>
+        <p>Фильтруй вакансии по факультету, навыкам и типу занятости</p>
+    </div>
+    
+    <div class="feature-card">
+        <h3>Подача заявок</h3>
+        <p>Отправляй резюме и сопроводительные письма в пару кликов</p>
+    </div>
+    
+    <div class="feature-card">
+        <h3>Умные уведомления</h3>
+        <p>Получай оповещения о новых подходящих вакансиях</p>
+    </div>
+</section>
+
+<section class="vacancies-preview">
+    <h2>Свежие вакансии</h2>
+    <div class="vacancies-grid">
+        <div class="vacancy-card">
+            <h3>Ассистент преподавателя</h3>
+            <p>Кафедра информатики · 15-20 часов/неделя</p>
+            <div class="vacancy-meta">
+                <span class="badge">На кампусе</span>
+                <span class="salary">от 25 000 ₽</span>
+            </div>
+        </div>
+        <div class="vacancy-card">
+            <h3>Стажёр в IT компанию</h3>
+            <p>TechPartner Inc. · Полный день</p>
+            <div class="vacancy-meta">
+                <span class="badge external">Вне кампуса</span>
+                <span class="salary">от 40 000 ₽</span>
+            </div>
+        </div>
+        <div class="vacancy-card">
+            <h3>Исследовательский проект</h3>
+            <p>Лаборатория искусственного интеллекта · Гибкий график</p>
+            <div class="vacancy-meta">
+                <span class="badge">На кампусе</span>
+                <span class="salary">Грант до 100 000 ₽</span>
+            </div>
+        </div>
+    </div>
+    <a href="/Jobs" class="see-all">Все вакансии →</a>
+</section>
